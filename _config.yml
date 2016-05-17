@@ -1,0 +1,18 @@
+# Site settings
+title: TESTING BLOG
+header-img: img/home-bg.jpg
+email: abhicool2601@gmail.com
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: "/tester"
+url: "http://vasuabhishek.github.io"
+github_username:  VasuAbhishek
+email_username:  abhicool2601@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
